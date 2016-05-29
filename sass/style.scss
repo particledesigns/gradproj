@@ -1,0 +1,139 @@
+/* --------------- Variables & Fonts --------------- */
+
+@font-face {
+  font-family: nexa;
+  src: url(../fonts/Nexa_Free_Light-webfont.ttf);
+}
+
+@font-face {
+  font-family: "nexa bold";
+  src: url(../fonts/Nexa_Free_Bold-webfont.ttf);
+  font-weight: bold;
+}
+
+$nb: "nexa bold";
+$n: "nexa";
+$darktext: #222222;
+$lighttext: #ffffff;
+
+/* --------------- Container & General Styling --------------- */
+
+html, body {
+  font-family: $n;
+}
+
+.page-container {
+  background-color: red;
+  min-height: 100vh;
+  padding: 0 !important;
+}
+
+.sidebar {
+  background-color: green;
+  min-height: 100vh;
+}
+
+.main-container {
+  background-color: blue;
+  min-height: 100vh;
+}
+
+a {
+  color: $lighttext !important;
+}
+
+/* --------------- Navbar Styling --------------- */
+
+nav {
+  margin-bottom: 0 !important;
+}
+
+.navbar-toggle{
+  position: absolute;
+  right: 0%;
+  z-index: 10 !important;
+}
+
+.navbar-header {
+  position: relative !important;
+  float: none;
+}
+
+.navbar-header .navbar-brand {
+  position: absolute !important;
+  width: 50%;
+  float: none;
+  left: 25%;
+  color: $lighttext;
+  text-align: center;
+  margin: 0 !important;
+  font-family: $nb;
+}
+
+.navbar-brand-s {
+  position: absolute !important;
+  width: 50%;
+  float: none;
+  left: 25%;
+  top: 0;
+  text-align: center;
+  color: $lighttext !important;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 !important;
+  font-family: $nb;
+}
+
+.in {
+  margin-top: 60px !important;
+}
+
+.navbar-brand-s {
+  @extend .navbar-brand;
+}
+
+.la-xs {
+}
+
+.la-xs img {
+  position: relative;
+  max-height: 40px;
+  max-width: 40px;
+  display: inline-block;
+  margin-top: -5px !important;
+}
+
+.nav-btn {
+  padding: 9px 10px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-left: 5px;
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white;
+  }
+  .icon-bar+.icon-bar {
+    margin-top: 4px;
+  }
+}
+
+.navbar-nav {
+  float: right;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  li {
+    display: inline-block !important;
+  }
+}
+
+
+
