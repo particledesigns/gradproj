@@ -585,6 +585,20 @@ nav {
 }
 
 
+.payment-image {
+  background-image: url("");
+  position: relative;
+  border-radius: 50%;
+  width: 100%;
+  padding-top: 100%;
+
+  background-position: center center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+
 
 
 
