@@ -152,6 +152,18 @@ nav {
   border-radius: 0 !important;
 }
 
+.dropdown-menu {
+  li {
+    a {
+      color: $darktext !important;
+    }
+  }
+}
+
+.glyphicon {
+  vertical-align: middle;
+}
+
 
 /* --------------- Index/Splash Styling --------------- */
 
