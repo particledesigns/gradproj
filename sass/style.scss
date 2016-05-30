@@ -345,7 +345,7 @@ nav {
 
   p {
     text-align: center;
-    color: $darktext;
+    color: $lighttext;
     padding-top: $gutter;
   }
 
@@ -378,11 +378,12 @@ nav {
     .offer-desc {
 
       text-align: right;
-      margin-top: 10px;
+      margin-top: 2px;
       display: inline-block;
 
-      h4 {
+      p {
         display: inline-block;
+        color: $lighttext;
       }
 
     }
