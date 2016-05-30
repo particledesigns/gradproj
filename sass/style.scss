@@ -281,6 +281,31 @@ nav {
 }
 
 
+/* --------------- Menu Styling --------------- */
+
+.menu-container {
+  margin: 0 !important;
+  .main-container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .menu-card {
+    float: left;
+    height: 33.3%;
+    width: 33.3%;
+    padding: $gutter;
+    background-color: red;
+    .menu-img {
+      background-image: url("../img/restaurant-food-01.jpg");
+      background-size: cover;
+      overflow: hidden;
+      width: 100%;
+      height: 60%;
+    }
+  }
+}
+
+
 /* --------------- Single Item Page Styling --------------- */
 
 
