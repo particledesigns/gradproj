@@ -318,20 +318,30 @@ nav {
       height: 60%;
     }
 
-    #offer-desc {
+    .offer-desc {
+
+      text-align: right;
+      margin-top: 10px;
+      display: inline-block;
+
+      h4 {
+        display: inline-block;
+      }
+
     }
 
     button {
       display: inline-block;
+      color: $lighttext;
+      background-color: $red ;
+      border-color: $red;
+      border-radius: 0;
+      text-align: center;
+      font-family: $n;
+      margin-left: 30px;
     }
 
-    .left-card {
-      float: left;
-    }
 
-    .right-card {
-      float: right;
-    }
 
 
 
