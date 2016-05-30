@@ -370,7 +370,7 @@ nav {
 
   p {
     text-align: center;
-    color: $darktext;
+    color: $lighttext;
     padding-top: $gutter;
   }
 
@@ -400,20 +400,31 @@ nav {
       height: 60%;
     }
 
-    #offer-desc {
+    .offer-desc {
+
+      text-align: right;
+      margin-top: 2px;
+      display: inline-block;
+
+      p {
+        display: inline-block;
+        color: $lighttext;
+      }
+
     }
 
     button {
       display: inline-block;
+      color: $lighttext;
+      background-color: $red ;
+      border-color: $red;
+      border-radius: 0;
+      text-align: center;
+      font-family: $n;
+      margin-left: 30px;
     }
 
-    .left-card {
-      float: left;
-    }
 
-    .right-card {
-      float: right;
-    }
 
 
 
