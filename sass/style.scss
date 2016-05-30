@@ -396,7 +396,7 @@ nav {
 
 .item-container {
   padding: 0 !important;
-
+  background-color: transparent;
   img {
     width: 100%;
     height: 50%;
@@ -404,7 +404,7 @@ nav {
 
   h2 {
     text-align: center;
-    color: $lighttext;
+    color: $darktext;
     font-family: $nb;
   }
 
@@ -414,7 +414,7 @@ nav {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: $gutter;
-    color: $lighttext;
+    color: $darktext;
     font-family: $n;
   }
 
@@ -444,7 +444,7 @@ nav {
 .info-container {
 
   text-align: center;
-
+  background-color: $darkblue;
 
 
   h2{
