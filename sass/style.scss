@@ -54,6 +54,11 @@ nav {
   margin-bottom: 0 !important;
 }
 
+.affix {
+  z-index: 10;
+  min-width: 100vw;
+}
+
 .navbar-toggle{
   position: absolute;
   right: 0%;
