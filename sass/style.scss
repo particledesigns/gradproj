@@ -26,23 +26,25 @@ $gutter: 1em;
 
 html, body {
   font-family: $n;
+  height: 100%;
 }
 
 .page-container {
   background-color: red;
   min-height: 100vh;
+  height: 100vh;
   padding: 0 !important;
   padding-top: 50px !important;
 }
 
 .sidebar {
   background-color: green;
-  min-height: 100vh;
+  height: 100%;
 }
 
 .main-container {
   background-color: blue;
-  min-height: 100vh;
+  height: 100%;
 }
 
 a {
