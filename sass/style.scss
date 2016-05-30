@@ -158,14 +158,49 @@ nav {
 
 .splash-container {
   padding-top: 0 !important;
-  h1 {
-    font-family: $nb;
-  }
+  height: 100%;
 }
 
 .splash-top {
   min-height: 50%;
-  background-color: white;
+  height: 50%;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: $darktext;
+  .splash-title-container {
+    position: relative;
+    left: 25%;
+    height: 90%;
+    width: 50%;
+    margin-top: 2%;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url("../img/restaurant-food-01.jpg");
+    background-size: cover;
+    overflow: hidden;
+    img {
+      height: 90%;
+      width: 100%;
+      margin-top: 4%;
+      overflow: hidden;
+    }
+    h1 {
+      font-family: $nb;
+      color: $lighttext;
+      display: block;
+      position: absolute;
+      height: 50%;
+      width: 80%;
+      top: 50%;
+      left: 10%;
+      padding: 0 !important;
+      margin: 0 !important;
+      margin-top: -25% !important;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
 }
 
 .splash-bot {
