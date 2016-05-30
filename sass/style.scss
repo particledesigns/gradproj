@@ -16,6 +16,14 @@ $n: "nexa";
 $darktext: #222222;
 $lighttext: #ffffff;
 
+/* ------------------ Added Variables --------------------- */
+$red: #e74c3c;
+$orange: #f6ae2d;
+$darkblue: #2F4858;
+$lightblue: #33658a;
+$lightestblue: #86bbd8;
+$gutter: 1em;
+
 /* --------------- Container & General Styling --------------- */
 
 html, body {
@@ -136,4 +144,77 @@ nav {
 }
 
 
+/* ------------------------------- Single Item Page ---------------------------------------- */
 
+
+
+.navbar {
+  border-radius: 0 !important;
+}
+
+
+.item-container {
+  padding: 0 !important;
+
+  img {
+    width: 100%;
+    height: 50%;
+  }
+
+  h2 {
+    text-align: center;
+    color: $lighttext;
+    font-family: $nb;
+  }
+
+  p {
+    text-align: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: $gutter;
+    color: $lighttext;
+    font-family: $n;
+  }
+
+  #price {
+    margin:0;
+  }
+
+  .btn-buy {
+    color: $lighttext;
+    background-color: $red ;
+    border-color: $red;
+    border-radius: 0;
+    text-align: center;
+    margin-left: 46%;
+    font-family: $n;
+  }
+}
+
+.info-container {
+
+  h2{
+    text-align: center;
+    color: $lighttext;
+    font-family: $nb;
+  }
+
+  p {
+    text-align: center;
+    color: $darktext;
+    padding-top: $gutter;
+  }
+
+  .offer-card {
+
+    width: 40%;
+    height: auto;
+    background-color: $lightblue;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
