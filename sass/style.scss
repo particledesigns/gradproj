@@ -642,6 +642,108 @@ nav {
 
   }
 
+}
+
+/* ----------------------------- Review Styling -------------------------- */
+
+
+.review-sidebar {
+  background-color: $darkblue;
+
+
+  h2 {
+    text-align: center;
+    color: $lighttext;
+    font-family: $nb;
+  }
+
+  .options {
+    text-align: center;
+    width: 13em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+
+
+    .option-btn {
+      color: $lighttext;
+      background-color: $red ;
+      border-color: $red;
+      border-radius: 0;
+      text-align: center;
+      font-family: $n;
+      padding: 1em 3em;
+
+    }
+
+
+  }
+
+  .cart-waiter {
+    margin-top: 43em;
+  }
+
+
+}
+
+
+.review-container {
+
+  background-color: white;
+
+  h2, h3 {
+      text-align: center;
+      color: $darktext;
+      font-family: $nb;
+
+  }
+
+  .review-centered {
+    text-align: center;
+    margin-top: 2em;
+  }
+
+  .review-card {
+
+    width: 9em;
+    height: 14.3em;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    background-color: $lightblue;
+
+    img {
+      margin-top: 8px;
+
+
+    }
+
+    p {
+      text-align: center;
+      color: $lighttext;
+      margin-top: 10px;
+    }
+
+    button {
+      color:$lighttext;
+      background-color: $red;
+      border-color: $red;
+      border-radius: 0;
+      text-align: center;
+      font-family: $n;
+
+    }
+
+
+    .btn-review {
+      margin-bottom: 8px;
+    }
+
+
+  }
+
+
+
 
 
 
@@ -650,12 +752,6 @@ nav {
 
 
 }
-
-
-
-
-
-
 
 
 

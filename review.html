@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prototype</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" data-spy="affix">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="index.html" class="la-xs"><img src="img/icons/arrow-left-w.png"></a>
+            <button type="button" class="nav-btn dropdown-toggle" data-toggle="dropdown">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="single.html">Single</a></li>
+                <li><a href="single2.html">Single 2</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="review.html">Review</a></li>
+            </ul>
+            <a class="navbar-brand hidden-sm hidden-md hidden-lg" href="#">Restaurant</a>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span></a></li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <a class="navbar-brand-s hidden-xs" href="#">Restaurant</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid page-container">
+
+    <div class="col-xs-4 sidebar review-sidebar">
+
+        <div class="options center-block cart-waiter">
+            <button type="button" class="btn option-btn">Call Waiter</button>
+        </div>
+
+    </div>
+
+    <div class="col-xs-8 main-container review-container">
+
+        <h2>Liked the experience?</h2>
+        <h3>Leave a review in the links below!</h3>
+
+        <div class="review-centered center-block">
+
+            <div class="review-card">
+                <img src="img/icons/zagat.jpg" class="center-block">
+                <p>Zagat</p>
+                <button type="button" class="btn btn-review center-block">Review</button>
+
+            </div>
+
+            <div class="review-card">
+                <img src="img/icons/yelp.jpg" class="center-block">
+                <p>Yelp</p>
+                <button type="button" class="btn btn-review center-block">Review</button>
+
+            </div>
+
+            <div class="review-card">
+                <img src="img/icons/gayot.jpg" class="center-block">
+                <p>Gayot</p>
+                <button type="button" class="btn btn-review center-block">Review</button>
+
+            </div>
+
+            <div class="review-card">
+                <img src="img/icons/urbanspoon.jpg" class="center-block">
+                <p>Urbanspoon</p>
+                <button type="button" class="btn btn-review center-block">Review</button>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script src="js/rest.js"></script>
+
+</body>
+</html>
