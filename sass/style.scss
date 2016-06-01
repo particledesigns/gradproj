@@ -164,6 +164,24 @@ nav {
   vertical-align: middle;
 }
 
+.help-pop {
+  position: absolute;
+  z-index: 1;
+  top: 60px;
+  right: -5px;
+  background-color: white;
+  min-height: 100px;
+  width: 300px;
+  padding: $gutter;
+  border-radius: 5%;
+  border: 1px solid $darkblue;
+  display: none;
+  h2 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
 
 /* --------------- Index/Splash Styling --------------- */
 

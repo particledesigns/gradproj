@@ -9,3 +9,7 @@ function goBack() {
     window.history.back();
 }
 
+$(".help-link").click(function(){
+    $(".help-pop").toggle("slow");
+});
+
